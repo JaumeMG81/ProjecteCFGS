@@ -11,7 +11,7 @@ import { HomeComponent } from './ems/home/home.component';
 import { AddComponent } from './ems/add/add.component';
 import { EditComponent } from './ems/edit/edit.component';
 import { ShowComponent } from './ems/show/show.component';
-import { EmpService } from './emp.service';
+import { EmpService } from './ems/emp.service';
 
 @NgModule({
   declarations: [

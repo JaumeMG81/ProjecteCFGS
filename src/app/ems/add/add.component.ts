@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { EmpService } from '../../emp.service';
-import { Employee } from '../../employee';
+import { EmpService } from '../emp.service';
+import { Employee } from '../employee';
 import {ActivatedRoute, Params, Router} from '@angular/router';
 @Component({
   selector: 'app-add',
