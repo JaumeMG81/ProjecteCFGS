@@ -7,13 +7,15 @@ import { HomeComponent } from './ems/home/home.component';
 import { AddComponent } from './ems/add/add.component';
 import { EditComponent } from './ems/edit/edit.component';
 import { ShowComponent } from './ems/show/show.component';
+import { LoginComponent } from './ems/login/login.component';
 
 const routes: Routes = [
   {path:"", redirectTo:"/home", pathMatch:"full"},
   {path:"home", component:HomeComponent},
   {path:"add", component:AddComponent},
   {path:"edit/:id", component:EditComponent},
-  {path:"show/:id", component:ShowComponent}
+  {path:"show/:id", component:ShowComponent},
+  {path:"login", component:LoginComponent}
 ];
 @NgModule({
   imports: [

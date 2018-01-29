@@ -12,6 +12,7 @@ import { AddComponent } from './ems/add/add.component';
 import { EditComponent } from './ems/edit/edit.component';
 import { ShowComponent } from './ems/show/show.component';
 import { EmpService } from './ems/emp.service';
+import { LoginComponent } from './ems/login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { EmpService } from './ems/emp.service';
     HomeComponent,
     AddComponent,
     EditComponent,
-    ShowComponent
+    ShowComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
