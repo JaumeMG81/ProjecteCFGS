@@ -71,3 +71,4 @@ projecte/src/app/app.module.ts
 projecte/src/assets/.gitkeep
 projecte/src/environments/environment.prod.ts
 projecte/src/environments/environment.ts
+package.json
