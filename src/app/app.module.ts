@@ -13,6 +13,9 @@ import { EditComponent } from './ems/edit/edit.component';
 import { ShowComponent } from './ems/show/show.component';
 import { EmpService } from './ems/emp.service';
 import { LoginComponent } from './ems/login/login.component';
+import { TiquetComponent } from './ems/tiquet/tiquet.component';
+import { EditTiquetComponent } from './ems/edit-tiquet/edit-tiquet.component';
+import { AddTiquetComponent } from './ems/add-tiquet/add-tiquet.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { LoginComponent } from './ems/login/login.component';
     AddComponent,
     EditComponent,
     ShowComponent,
-    LoginComponent
+    LoginComponent,
+    TiquetComponent,
+    EditTiquetComponent,
+    AddTiquetComponent
   ],
   imports: [
     BrowserModule,

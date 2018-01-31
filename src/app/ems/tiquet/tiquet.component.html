@@ -1,0 +1,24 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <td>Test 1</td>
+      <td>Test 2</td>
+      <td>Test 3</td>
+      <td width=275 align="center">Action</td>
+    </tr>
+  </thead>
+  <tbody>
+     <tr *ngFor="let tiquet of tiquets">
+        <td>{{tiquet.name}}</td>
+        <td>{{tiquet.position}}</td>
+        <td>{{tiquet.department}}</td>
+        <td width=275> 
+            <a class="btn btn-info" routerLink="/showTiquet/{{tiquet._id}}">Detail</a> 
+            <a class="btn btn-success" routerLink="/editTiquet/{{tiquet._id}}">Edit</a>
+            <a class="btn btn-danger" (click)="deleteTiquet(tiquet._id)">Delete</a>
+        </td>
+     </tr>
+  </tbody>
+
+</table>
+<a class="btn btn-success" [routerLink]="['/addTiquet']">Crear</a>
