@@ -45,7 +45,6 @@ projecte/.angular-cli.json
 projecte/.editorconfig
 projecte/.gitignore
 projecte/karma.conf.js
-projecte/package.json
 projecte/protractor.conf.js
 projecte/README.md
 projecte/tsconfig.json
